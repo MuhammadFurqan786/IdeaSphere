@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/chat"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/rv_newsdesign">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_chat"
+            app:tint="@color/white"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/textlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/chat"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        >
+
+        <TextView
+            android:id="@+id/chat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laurel Carpenter"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito_bold"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/chat_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some Message By User...."
+            android:layout_below="@+id/chat_name"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:maxLines="2"
+            android:fontFamily="@font/nunito_regular"
+            android:textSize="@dimen/_10sdp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chat">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            android:layout_marginVertical="@dimen/_10sdp"/>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/et_comment"
+    android:layout_margin="@dimen/_5sdp"
+    android:padding="@dimen/_3sdp">
+    <TextView
+        android:id="@+id/tv_cmnt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Furqan"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+    <TextView
+        android:id="@+id/tv_cmnt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23:16"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_9sdp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+    <TextView
+        android:id="@+id/tv_cmnt"
+        android:layout_below="@+id/tv_cmnt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you are very nice person"
+        android:textSize="@dimen/_11sdp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_4sdp"/>
+</RelativeLayout>

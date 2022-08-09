@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180756444521",
+    "project_id": "storm-education",
+    "storage_bucket": "storm-education.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180756444521:android:f88add9066c380c26739f8",
+        "android_client_info": {
+          "package_name": "com.example.stormeducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180756444521-4orrih7rr40app09ok0guj0v1t8p6jlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8mbKbAMNR2N0in659LFO7iB51HLatHlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180756444521-4orrih7rr40app09ok0guj0v1t8p6jlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

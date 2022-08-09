@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp">
+
+    <LinearLayout
+        android:id="@+id/layout_design"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_58sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/rv_newsdesign"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginHorizontal="@dimen/_17sdp"
+        android:background="@drawable/rv_news">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/profile_image"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:src="@drawable/user_image"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/profile_image"
+            >
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laurel Carpenter"
+                android:textStyle="bold"
+                android:fontFamily="@font/nunito_bold"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/profile_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some Question By The User?"
+                android:layout_below="@+id/profile_name"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:fontFamily="@font/nunito_bold"
+                android:textSize="@dimen/_10sdp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
